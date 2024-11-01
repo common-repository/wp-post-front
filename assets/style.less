@@ -1,0 +1,41 @@
+#front-post-actions{
+  a{
+    margin-right: 10px;
+  }
+}
+.front-post-modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  ul li{
+    list-style: none;
+  }
+  .wp-editor-area{
+    color: #000 !important;
+  }
+  #wpf-add-post-container{
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #dddddd;
+    width: 80%; /* Could be more or less, depending on screen size */
+
+    .wpf-form-field{
+      margin-bottom: 20px ;
+      label, input, textarea, select{
+        display: block;
+      }
+      input[type="text"]{
+        width: 100%;
+      }
+      textarea.tax-input-*{
+        background: none;
+        border: none;
+        height: 10px;
+      }
+    }
+  }
+}
